@@ -1754,7 +1754,7 @@ object frmAcerta: TfrmAcerta
     Top = 168
   end
   object frxReport: TfrxReport
-    Version = '6.6.17'
+    Version = '6.2.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -1806,7 +1806,6 @@ object frmAcerta: TfrmAcerta
       TopMargin = 5.000000000000000000
       BottomMargin = 5.000000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object Totais: TfrxReportSummary
         FillType = ftBrush
         Frame.Typ = []
@@ -2313,8 +2312,6 @@ object frmAcerta: TfrmAcerta
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 434
     Top = 211
   end

@@ -9,7 +9,7 @@ uses
   FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
   Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.Mask,
   Vcl.Imaging.pngimage, Vcl.Themes, Vcl.Styles,
-  Vcl.DBCtrls, JvExStdCtrls, JvGroupBox, Vcl.ExtDlgs;
+  Vcl.DBCtrls, JvExStdCtrls, JvGroupBox, Vcl.ExtDlgs, acPNG;
   //acPNG;
 
 type

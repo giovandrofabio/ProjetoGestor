@@ -234,6 +234,8 @@ procedure TfrmContador.FormKeyDown(Sender: TObject; var Key: Word;
 begin
   if PageControl1.ActivePageIndex = 0 then
   begin
+    if Key = vk_escape then
+      Close;
     if Key = vk_f2 then
     begin
       bbNovoClick(self);
@@ -258,6 +260,8 @@ begin
   end
   else
   begin
+    if Key = vk_escape then
+      Close;
     if Key = VK_F5 then
       btnGravarClick(self);
     if Key = VK_ESCAPE then

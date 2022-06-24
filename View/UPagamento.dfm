@@ -38,10 +38,6 @@ object frmFPG: TfrmFPG
     object Lista: TTabSheet
       Caption = 'Lista'
       TabVisible = False
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object DBGrid1: TDBGrid
         Left = 0
         Top = 65
@@ -1730,8 +1726,6 @@ object frmFPG: TfrmFPG
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 442
     Top = 267
   end
@@ -1770,7 +1764,7 @@ object frmFPG: TfrmFPG
     Top = 264
   end
   object frxReport: TfrxReport
-    Version = '6.6.17'
+    Version = '6.2.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -1821,7 +1815,6 @@ object frmFPG: TfrmFPG
       TopMargin = 5.000000000000000000
       BottomMargin = 5.000000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object Totais: TfrxReportSummary
         FillType = ftBrush
         Frame.Typ = []

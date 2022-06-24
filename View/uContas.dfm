@@ -1516,8 +1516,6 @@ object frmContas: TfrmContas
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 402
     Top = 139
   end
@@ -1556,7 +1554,7 @@ object frmContas: TfrmContas
     Top = 192
   end
   object frxReport: TfrxReport
-    Version = '6.6.17'
+    Version = '6.2.11'
     DataSetName = 'frxDBCo'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
@@ -1608,7 +1606,6 @@ object frmContas: TfrmContas
       TopMargin = 5.000000000000000000
       BottomMargin = 5.000000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object Totais: TfrxReportSummary
         FillType = ftBrush
         Frame.Typ = []

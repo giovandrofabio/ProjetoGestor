@@ -1407,7 +1407,7 @@ object frmUnidade: TfrmUnidade
     Top = 120
   end
   object frxReport: TfrxReport
-    Version = '6.6.17'
+    Version = '6.2.11'
     DataSetName = 'frxDBCo'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
@@ -1459,7 +1459,6 @@ object frmUnidade: TfrmUnidade
       TopMargin = 5.000000000000000000
       BottomMargin = 5.000000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object Totais: TfrxReportSummary
         FillType = ftBrush
         Frame.Typ = []
@@ -1837,8 +1836,6 @@ object frmUnidade: TfrmUnidade
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 442
     Top = 267
   end

@@ -35,6 +35,10 @@
     object TabSheet1: TTabSheet
       Caption = 'Tab1'
       TabVisible = False
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object PnTipo: TPanel
         Left = 0
         Top = 138
@@ -105,7 +109,7 @@
           Left = 16
           Top = 18
           Width = 353
-          Height = 22
+          Height = 21
           Ctl3D = False
           ParentCtl3D = False
           DynProps = <>
@@ -150,7 +154,7 @@
           Left = 16
           Top = 16
           Width = 353
-          Height = 22
+          Height = 21
           Ctl3D = False
           ParentCtl3D = False
           DynProps = <>
@@ -292,7 +296,7 @@
           Left = 16
           Top = 16
           Width = 353
-          Height = 22
+          Height = 21
           Ctl3D = False
           ParentCtl3D = False
           DynProps = <>
@@ -833,7 +837,7 @@
     end
   end
   object frxReport: TfrxReport
-    Version = '6.7.3'
+    Version = '6.2.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -877,7 +881,6 @@
       TopMargin = 5.100000000000000000
       BottomMargin = 5.100000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object PageHeader1: TfrxPageHeader
         FillType = ftBrush
         Frame.Typ = []
@@ -1310,8 +1313,6 @@
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 327
     Top = 11
   end

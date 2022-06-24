@@ -223,9 +223,13 @@ begin
       edtLoc.SetFocus;
       abort;
     end;
+    if Key = vk_escape then
+      Close;
   end
   else
   begin
+    if Key = vk_escape then
+      Close;
     if Key = VK_F5 then
       btnGravarClick(self);
     if Key = VK_ESCAPE then

@@ -1177,6 +1177,10 @@ object frmProdutos: TfrmProdutos
     object TabSheet2: TTabSheet
       Caption = 'Seriais'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object DBGrid2: TDBGrid
         Left = 0
         Top = 0
@@ -1272,8 +1276,6 @@ object frmProdutos: TfrmProdutos
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 402
     Top = 139
   end
@@ -1374,7 +1376,7 @@ object frmProdutos: TfrmProdutos
     Top = 200
   end
   object frxReport: TfrxReport
-    Version = '6.7.3'
+    Version = '6.2.11'
     DataSetName = 'frxDBCo'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
@@ -1416,7 +1418,6 @@ object frmProdutos: TfrmProdutos
       TopMargin = 5.080000000000000000
       BottomMargin = 5.080000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object MasterData1: TfrxMasterData
         FillType = ftBrush
         Frame.Typ = []

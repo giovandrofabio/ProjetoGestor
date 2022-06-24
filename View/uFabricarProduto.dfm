@@ -466,7 +466,7 @@ object frmFabricar: TfrmFabricar
     end
   end
   object frxReport: TfrxReport
-    Version = '6.6.17'
+    Version = '6.2.11'
     DataSetName = 'frxDBCo'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
@@ -506,7 +506,6 @@ object frmFabricar: TfrmFabricar
       TopMargin = 5.080000000000000000
       BottomMargin = 5.080000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object MasterData1: TfrxMasterData
         FillType = ftBrush
         Frame.Typ = []
@@ -942,8 +941,6 @@ object frmFabricar: TfrmFabricar
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 34
     Top = 155
   end

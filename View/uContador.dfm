@@ -38,10 +38,6 @@ object frmContador: TfrmContador
     object Lista: TTabSheet
       Caption = 'Lista'
       TabVisible = False
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object DBGrid1: TDBGrid
         Left = 0
         Top = 73
@@ -1733,7 +1729,7 @@ object frmContador: TfrmContador
     Top = 224
   end
   object frxReport: TfrxReport
-    Version = '6.6.17'
+    Version = '6.2.11'
     DataSetName = 'frxDBCo'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
@@ -1774,7 +1770,6 @@ object frmContador: TfrmContador
       TopMargin = 5.000000000000000000
       BottomMargin = 5.000000000000000000
       Frame.Typ = []
-      MirrorMode = []
       object Totais: TfrxReportSummary
         FillType = ftBrush
         Frame.Typ = []
@@ -2152,8 +2147,6 @@ object frmContador: TfrmContador
     CenterWindow = False
     PrintScaling = False
     PdfA = False
-    PDFStandard = psNone
-    PDFVersion = pv17
     Left = 258
     Top = 299
   end
